@@ -5,4 +5,4 @@
 
 import "./application.css";
 
-document.body.insertAdjacentHTML("aftergenin", "Webpacker works!");
+document.body.insertAdjacentHTML("afterbegin", "Webpacker works!");
