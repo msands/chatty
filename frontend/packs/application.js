@@ -3,6 +3,6 @@
 // a relevant structure within app/javascript and only use these pack files to reference
 // that code so it'll be compiled.
 
-require("@rails/ujs").start()
-require("@rails/activestorage").start()
-require("channels")
+import "./application.css";
+
+document.body.insertAdjacentHTML("aftergenin", "Webpacker works!");
