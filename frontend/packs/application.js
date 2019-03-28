@@ -3,6 +3,5 @@
 // a relevant structure within app/javascript and only use these pack files to reference
 // that code so it'll be compiled.
 
-import "./application.css";
-
-document.body.insertAdjacentHTML("afterbegin", "Webpacker works!");
+import "init";
+import "components/page/page";
